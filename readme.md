@@ -32,7 +32,7 @@
 
 ## 실습 1. Lang chain과 Open AI API를 이용한 간단한 질의응답 코드
 
-- Python, Lang chain, Open AI API Key 활용 간단 질의응답 서비스[]()
+- [Python, Lang chain, Open AI API Key 활용 간단 질의응답 서비스](https://github.com/CheorHyeon/AIStudy/tree/main/1week)
 
 ---
 
