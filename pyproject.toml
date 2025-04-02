@@ -1,0 +1,25 @@
+[project]
+name = "aistudy"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "parkcheorhyeon", email = "r4560798@naver.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "openai (>=1.70.0,<2.0.0)",
+    "pandas (>=2.2.3,<3.0.0)",
+    "qdrant-client (>=1.13.3,<2.0.0)",
+    "python-dotenv (>=1.1.0,<2.0.0)",
+    "openpyxl (>=3.1.5,<4.0.0)"
+]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+packages = [
+    { include = "aistudy" }
+]
